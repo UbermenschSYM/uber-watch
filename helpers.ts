@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Connection, PublicKey } from "@solana/web3.js";
 import {
     SPL_ACCOUNT_LAYOUT,
