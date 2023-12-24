@@ -137,10 +137,6 @@ export class UberWatch {
             let response = await axios.get(requestUrl);
             let data = response.data;
             currentData.tokenHoldings.push(data);
-            // if(!this.)
-            // console.log(response.data);
-            // this.updateData();
-            
             // logging differences in token holdings between now and last update
             let previousTokens = this.data.tokenHoldings[id].elements[0].data.assets;
             let currentTokens = data.elements[0].data.assets;
